@@ -1,0 +1,139 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+}
+
+.main {
+  margin: 100px auto;
+}
+
+.sub-main {
+  width: 375px;
+  background-color: hsl(0, 0%, 20%);
+  padding: 35px;
+  border-radius: 12px;
+}
+
+.image {
+  text-align: center;
+  margin-bottom: 32px;
+  /* border-radius: 50%; */
+}
+
+img {
+  border-radius: 50%;
+  width: 45%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  margin-bottom: 18px;
+}
+
+h5 {
+  text-align: center;
+  font-size: 18px;
+  color: hsl(75, 94%, 57%);
+  margin-bottom: 32px;
+}
+
+.dev {
+  text-align: center;
+  font-size: 17px;
+  margin-bottom: 24px;
+  color: #fff;
+}
+
+.right {
+  text-align: center;
+}
+
+.one {
+  font-size: 18px;
+  font-weight: 600;
+  background-color: hsl(75, 94%, 57%);
+  padding: 1em;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.two {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background-color: hsl(0, 0%, 28%);
+  padding: 1em;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.three {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background-color: hsl(0, 0%, 28%);
+  padding: 1em;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.four {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background-color: hsl(0, 0%, 28%);
+  padding: 1em;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.five {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  background-color: hsl(0, 0%, 28%);
+  padding: 1em;
+  border-radius: 10px;
+}
+
+@media (min-width: 900px) {
+
+  .main {
+    margin: 150px auto;
+  }
+
+  .sub-main {
+    display: flex;
+    gap: 35px;
+    width: 700px;
+  }
+
+  img {
+    border-radius: 50%;
+    width: 55%;
+  }
+  
+  .right {
+    width: 50%;
+  }
+}
